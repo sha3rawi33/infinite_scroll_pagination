@@ -9,9 +9,10 @@ class NewPageErrorIndicator extends StatelessWidget {
   final VoidCallback? onTap;
 
   @override
-  Widget build(BuildContext context) => InkWell(
+  Widget build(BuildContext context) =>
+      InkWell(
         onTap: onTap,
-        child: const FooterTile(
+        child: FooterTile(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
